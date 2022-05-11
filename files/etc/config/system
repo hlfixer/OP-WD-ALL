@@ -5,10 +5,10 @@ config system
 	option urandom_seed '0'
 	option timezone 'CST-8'
 	option zonename 'Asia/Shanghai'
-	option hostname 'LEDE'
 	option log_proto 'udp'
 	option conloglevel '8'
 	option cronloglevel '8'
+	option hostname 'OpenWrt'
 
 config timeserver 'ntp'
 	option enabled '1'

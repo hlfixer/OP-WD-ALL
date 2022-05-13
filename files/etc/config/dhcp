@@ -16,7 +16,6 @@ config dnsmasq
 	option ednspacket_max '1232'
 	option localuse '1'
 	list server '127.0.0.1#6053'
-	option noresolv '1'
 
 config dhcp 'lan'
 	option interface 'lan'
@@ -84,8 +83,43 @@ config host
 
 config srvhost
 	option srv '_vlmcs._tcp'
-	option target 'LEDE'
+	option target 'OpenWrt'
 	option port '1688'
 	option class '0'
 	option weight '100'
+
+config host
+	option name 'kaoxiang_chapai'
+	option dns '1'
+	option mac '88:97:46:0a:ae:8d'
+	option ip '192.168.1.94'
+	option leasetime 'infinite'
+
+config host
+	option name 'weibolu_chapai'
+	option dns '1'
+	option mac '88:97:46:0e:86:41'
+	option ip '192.168.1.93'
+	option leasetime 'infinite'
+
+config host
+	option name 'opple-light'
+	option dns '1'
+	option mac '54:48:e6:02:73:4f'
+	option ip '192.168.1.92'
+	option leasetime 'infinite'
+
+config host
+	option name 'youyanji'
+	option dns '1'
+	option mac '64:90:c1:c9:5d:e6'
+	option ip '192.168.1.91'
+	option leasetime 'infinite'
+
+config host
+	option name 'wangguan'
+	option dns '1'
+	option mac '54:ef:44:2a:e2:09'
+	option ip '192.168.1.90'
+	option leasetime 'infinite'
 

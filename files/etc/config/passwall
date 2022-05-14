@@ -74,12 +74,13 @@ config global_subscribe
 	option ss_aead_type 'shadowsocks-libev'
 	option trojan_type 'trojan-plus'
 	option filter_keyword_mode '2'
-	list filter_keep_list '闊╁浗'
-	list filter_keep_list '缇庡浗'
-	list filter_keep_list '鏂板姞鍧?
-	list filter_keep_list '鏃ユ湰'
-	list filter_keep_list '棣欐腐'
+	list filter_keep_list '涓撶嚎|闊╁浗'
+	list filter_keep_list '涓撶嚎|缇庡浗'
+	list filter_keep_list '涓撶嚎|鏂板姞鍧?
+	list filter_keep_list '涓撶嚎|鏃ユ湰'
+	list filter_keep_list '涓撶嚎|棣欐腐'
 	list filter_keep_list 'IPLC'
+	list filter_keep_list 'emby'
 
 config auto_switch
 	option enable '0'

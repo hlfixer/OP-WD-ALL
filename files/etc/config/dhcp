@@ -130,3 +130,17 @@ config host
 	option ip '192.168.1.89'
 	option leasetime 'infinite'
 
+config host
+	option name 'xiaodu'
+	option dns '1'
+	option mac '88:2d:53:99:b4:21'
+	option ip '192.168.1.88'
+	option leasetime 'infinite'
+
+config host
+	option dns '1'
+	option mac '04:78:63:e9:48:f2'
+	option ip '192.168.1.87'
+	option leasetime 'infinite'
+	option name 'MICO'
+
